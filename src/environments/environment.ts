@@ -4,5 +4,11 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  trelloApi: {
+    url: 'https://api.trello.com/1',
+    board: '9oQE68Ox',
+    key: '',
+    token: ''
+  }
 };

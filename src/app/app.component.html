@@ -6,10 +6,10 @@
 
 <div class="tdl">
 <label class="container" *ngFor="let opt of options">
-  {{opt.text}}
+  {{opt.name}}
   <input type="checkbox"
          [(checklist)]="list"
-         [checklistValue]="opt.value" />
+         [checklistValue]="opt.id" />
   <span class="checkmark"></span>
 </label>
 </div>
