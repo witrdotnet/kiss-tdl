@@ -1,6 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
-/* the todo list */
+/* the logo */
+.logo {
+    background-image: url('assets/images/LogoMakr_19dTae.png');
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-size: 200px;
+}
+
+/* the tdl */
 .tdl {
     text-align:left;
 }

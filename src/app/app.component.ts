@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'KISS To-Do-List';
   options = [
 	{text: "a", value: "1"},
 	{text : "b", value: "2"}
